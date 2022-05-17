@@ -1,26 +1,26 @@
 # Insert dummy variables
 ## Social Media
 
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('1', 'ee', 'ee', 'ee'
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('2', 'ww', 'ww', 'ww');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('3', 'aa', 'aa', 'aa');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('4', 'bb', 'bb', 'bb');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('5', 'cc', 'cc', 'cc');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('6', 'dd', 'dd', 'dd');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('7', 'ff', 'ff', 'ff');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('8', 'gg', 'gg', 'gg');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('9', 'hh', 'hh', 'hh');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('10', 'ii', 'ii', 'ii');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('11', 'jj', 'jj', 'jj');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('12', 'kk', 'kk', 'kk');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('13', 'll', 'll', 'll');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('14', 'mm', 'mm', 'nn');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('15', 'oo', 'oo', 'oo');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('16', 'nn', 'nn', 'nn');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('17', 'pp', 'pp', 'pp');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('18', 'qq', 'qq', 'qq');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('19', 'xx', 'xx', 'xx');
-    INSERT INTO `Airbnb`.`social_media` (`idsocial_media`, `facebook`, `instagram`, `twitter`) VALUES ('20', 'yy', 'yy', 'yy');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('1', 'ee', 'ee', 'ee'
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('2', 'ww', 'ww', 'ww');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('3', 'aa', 'aa', 'aa');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('4', 'bb', 'bb', 'bb');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('5', 'cc', 'cc', 'cc');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('6', 'dd', 'dd', 'dd');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('7', 'ff', 'ff', 'ff');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('8', 'gg', 'gg', 'gg');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('9', 'hh', 'hh', 'hh');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('10', 'ii', 'ii', 'ii');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('11', 'jj', 'jj', 'jj');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('12', 'kk', 'kk', 'kk');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('13', 'll', 'll', 'll');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('14', 'mm', 'mm', 'nn');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('15', 'oo', 'oo', 'oo');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('16', 'nn', 'nn', 'nn');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('17', 'pp', 'pp', 'pp');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('18', 'qq', 'qq', 'qq');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('19', 'xx', 'xx', 'xx');
+    INSERT INTO `Airbnb`.`social_media` (`social_media_id`, `facebook`, `instagram`, `twitter`) VALUES ('20', 'yy', 'yy', 'yy');
 
 ## languages
 
@@ -37,7 +37,7 @@
 
 ## User 
 
-    INSERT INTO `Airbnb`.`user` (`iduser`,`first_name`,`last_name`,`gender`,`password`,`email`,`phone`,`user_type`)
+    INSERT INTO `Airbnb`.`user` (`user_id`,`first_name`,`last_name`,`gender`,`password`,`email`,`phone`,`user_type`)
     VALUES
       (6,"Buffy","Leon","male","VEC40HKT5PF","non.feugiat@aol.couk","1-443-497-4616","h"),
       (7,"Ferris","Sloan","female","IHL09OSQ4UE","tempus.scelerisque@google.com","1-926-230-7441","g"),
@@ -67,7 +67,7 @@
       
 ## messages
 
-    INSERT INTO `Airbnb`.`messages` (`idmessages`,`content`,`sender`,`receiver`)
+    INSERT INTO `Airbnb`.`messages` (`messages_id`,`content`,`sender`,`receiver`)
     VALUES
       (1,"euismod ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra sed,",14,28),
       (2,"placerat, augue.",9,21),
@@ -119,7 +119,7 @@
 
 ## Coordinates
 
-    INSERT INTO `Airbnb`.`coordintates` (`idcoordintates`,`longitude`,`latitude`)
+    INSERT INTO `Airbnb`.`coordintates` (`coordintates_id`,`longitude`,`latitude`)
     VALUES
       (1,"-13.0528809984","-16.5748612096"),
       (2,"-68.0986554368","11.5804635136"),
@@ -143,78 +143,78 @@
       (20,"151.0443401216","49.2378913792");
 
 ## City
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('1', 'Istanbul', 'TUR');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('2', 'Berlin', 'GER');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('3', 'Munich', 'GER');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('4', 'Frankfurt', 'GER');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('5', 'Miami', 'USA');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('6', 'New York', 'USA');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('7', 'Izmir', 'TUR');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('8', 'London', 'UK');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('9', 'Liverpool', 'UK');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('10', 'Manila', 'PHI');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('11', 'Johannesburg', 'RSA');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('12', 'Cancun', 'MEX');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('13', 'New Mexico', 'MEX');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('14', 'Manchester', 'UK');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('15', 'Paris', 'FR');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('16', 'Marseille', 'FR');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('17', 'Toronto', 'CA');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('18', 'Vancouver', 'CA');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('19', 'Ottawa', 'CA');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('20', 'Kiyoto', 'JPN');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('21', 'Tokyo', 'JPN');
-INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('22', 'Seoul', 'KOR');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('1', 'Istanbul', 'TUR');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('2', 'Berlin', 'GER');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('3', 'Munich', 'GER');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('4', 'Frankfurt', 'GER');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('5', 'Miami', 'USA');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('6', 'New York', 'USA');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('7', 'Izmir', 'TUR');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('8', 'London', 'UK');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('9', 'Liverpool', 'UK');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('10', 'Manila', 'PHI');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('11', 'Johannesburg', 'RSA');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('12', 'Cancun', 'MEX');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('13', 'New Mexico', 'MEX');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('14', 'Manchester', 'UK');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('15', 'Paris', 'FR');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('16', 'Marseille', 'FR');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('17', 'Toronto', 'CA');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('18', 'Vancouver', 'CA');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('19', 'Ottawa', 'CA');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('20', 'Kiyoto', 'JPN');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('21', 'Tokyo', 'JPN');
+INSERT INTO `Airbnb`.`city` (`city_id`, `name`, `country_code`) VALUES ('22', 'Seoul', 'KOR');
 
 ## Neighborhood
 
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('1', 'Beyazit', '1', 'TUR');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('2', 'Fatih', '1', 'TUR');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('3', 'Galata', '1', 'TUR');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('4', 'Kreuzberg', '2', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('5', 'Friedrichshain', '2', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('6', 'Tiergarten', '2', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('7', 'Dachau', '3', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('8', 'Olympiapark', '3', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('9', 'Sachsenhausen', '4', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('10', 'Westend', '4', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('11', 'Ostend', '4', 'GER');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('12', 'Downtown', '5', 'USA');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('13', 'Manhatten', '6', 'USA');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('14', 'SoHo', '6', 'USA');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('15', 'Brooklyn', '6', 'USA');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('16', 'Gangnam', '22', 'KOR');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('17', 'Gotanda', '21', 'JPN');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('18', 'Downtown', '17', 'CA');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`, `country_code`) VALUES ('19', 'Belleville', '15', 'FR');
-    INSERT INTO `Airbnb`.`neighborhood` (`idneighborhood`, `name`, `city_idcity`) VALUES ('20', 'South Kensington', '8');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('1', 'Beyazit', '1', 'TUR');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('2', 'Fatih', '1', 'TUR');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('3', 'Galata', '1', 'TUR');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('4', 'Kreuzberg', '2', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('5', 'Friedrichshain', '2', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('6', 'Tiergarten', '2', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('7', 'Dachau', '3', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('8', 'Olympiapark', '3', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('9', 'Sachsenhausen', '4', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('10', 'Westend', '4', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('11', 'Ostend', '4', 'GER');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('12', 'Downtown', '5', 'USA');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('13', 'Manhatten', '6', 'USA');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('14', 'SoHo', '6', 'USA');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('15', 'Brooklyn', '6', 'USA');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('16', 'Gangnam', '22', 'KOR');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('17', 'Gotanda', '21', 'JPN');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('18', 'Downtown', '17', 'CA');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`, `country_code`) VALUES ('19', 'Belleville', '15', 'FR');
+    INSERT INTO `Airbnb`.`neighborhood` (`neighborhood_id`, `name`, `city_id`) VALUES ('20', 'South Kensington', '8');
 
 ## Address
 
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('1', 'TUR', '1', '1', 'abc', '13', '5', '1');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('2', 'TUR', '1', '2', 'Haggia Sophia Sokak', '23', '5', '2');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('3', 'TUR', '1', '3', 'fener sokak', '433', '22', '3');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('4', 'TUR', '1', '3', 'Galata sokak', '45', '13', '4');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('5', 'GER', '4', '9', 'Sachsen Strasse', '2', '4', '5');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('6', 'GER', '4', '10', 'Westend Strasse', '324', '44', '6');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('7', 'GER', '4', '11', 'Ostend Strasse', '33', '3', '7');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('8', 'GER', '3', '7', 'Dachau Strasse', '10', '35', '8');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('9', 'GER', '2', '6', 'Berliner Strasse', '34', '23', '9');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('10', 'FR', '15', '19', 'Francais Street', '2', '34', '10');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('11', 'FR', '15', '19', 'Belle Street', '42', '3', '11');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('12', 'FR', '15', '19', 'Champs Street', '1789', '2', '12');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('13', 'USA', '5', '12', 'Heat Avenue', '2010', '6', '13');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('14', 'USA', '6', '13', 'Knicks Gap', '212', '23', '14');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('15', 'USA', '6', '15', 'Kyrie Avenue', '234', '34', '15');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('16', 'USA', '6', '16', 'Nets Street', '2343', '23', '16');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('17', 'CA', '17', '18', 'Drake Avenue', '43', '3', '17');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('18', 'CA', '17', '18', 'Raptors ID', '34', '3', '18');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('19', 'JPN', '21', '17', 'Wes Street', '4222', '1', '19');
-    INSERT INTO `Airbnb`.`address` (`idaddress`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_idcoordintates`) VALUES ('20', 'JPN', '21', '17', 'Mkh Street', '2423', '2', '20');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('1', 'TUR', '1', '1', 'abc', '13', '5', '1');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('2', 'TUR', '1', '2', 'Haggia Sophia Sokak', '23', '5', '2');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('3', 'TUR', '1', '3', 'fener sokak', '433', '22', '3');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('4', 'TUR', '1', '3', 'Galata sokak', '45', '13', '4');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('5', 'GER', '4', '9', 'Sachsen Strasse', '2', '4', '5');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('6', 'GER', '4', '10', 'Westend Strasse', '324', '44', '6');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('7', 'GER', '4', '11', 'Ostend Strasse', '33', '3', '7');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('8', 'GER', '3', '7', 'Dachau Strasse', '10', '35', '8');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('9', 'GER', '2', '6', 'Berliner Strasse', '34', '23', '9');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('10', 'FR', '15', '19', 'Francais Street', '2', '34', '10');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('11', 'FR', '15', '19', 'Belle Street', '42', '3', '11');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('12', 'FR', '15', '19', 'Champs Street', '1789', '2', '12');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('13', 'USA', '5', '12', 'Heat Avenue', '2010', '6', '13');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('14', 'USA', '6', '13', 'Knicks Gap', '212', '23', '14');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('15', 'USA', '6', '15', 'Kyrie Avenue', '234', '34', '15');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('16', 'USA', '6', '16', 'Nets Street', '2343', '23', '16');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('17', 'CA', '17', '18', 'Drake Avenue', '43', '3', '17');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('18', 'CA', '17', '18', 'Raptors ID', '34', '3', '18');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('19', 'JPN', '21', '17', 'Wes Street', '4222', '1', '19');
+    INSERT INTO `Airbnb`.`address` (`address_id`, `country_code`, `city_id`, `neighborhood_id`, `street`, `housenumber`, `apartmentnumber`, `coordintates_id`) VALUES ('20', 'JPN', '21', '17', 'Mkh Street', '2423', '2', '20');
 
 ## type_of_place
 
-    INSERT INTO `type_of_place` (`idtype_of_place`,`type_of_place`)
+    INSERT INTO `type_of_place` (`type_of_place_id`,`type_of_place`)
     VALUES
       (1,"room"),
       (2,"apartment"),
@@ -238,7 +238,7 @@ INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('22', 'Se
       (20,"room");
 ## price
 
-    INSERT INTO `price` (`idprice`,`base_price`,`discount_per_week`,`discount_per_month`,`service_fee`,`airbnb_fee`)
+    INSERT INTO `price` (`price_id`,`base_price`,`discount_per_week`,`discount_per_month`,`service_fee`,`airbnb_fee`)
     VALUES
       (1,112,10,14,15,6),
       (2,39,9,10,0,9),
@@ -261,7 +261,7 @@ INSERT INTO `Airbnb`.`city` (`idcity`, `name`, `country_code`) VALUES ('22', 'Se
       (19,88,6,11,18,8),
       (20,62,3,10,20,4);
 ## review_rating
-INSERT INTO `review_rating` (`idreview_rating`,`review`,`rating`,`date_reviewed`,`user_iduser`,`property_idproperty`)
+INSERT INTO `review_rating` (`review_rating_id`,`review`,`rating`,`date_reviewed`,`user_id`,`property_id`)
 VALUES
 
       (1,"sed dictum eleifend, nunc risus varius orci, in",4,"2021-09-14 09:18:40",6,18),
@@ -316,7 +316,7 @@ VALUES
       (50,"nulla ante, iaculis nec, eleifend",2,"2022-05-30 22:32:42",13,7);
       
 ## wishlist
-    INSERT INTO `wishlist` (`idwishlist`,`name`,`user_iduser`)
+    INSERT INTO `wishlist` (`wishlist_id`,`name`,`user_id`)
     VALUES
       (1,"eleifend. Cras sed",12),
       (2,"accumsan neque et",17),
@@ -340,7 +340,7 @@ VALUES
       (20,"ante dictum mi,",8);
 ## property
 
-    INSERT INTO `property` (`idproperty`,`title`,`date_created`,`address_idaddress`,`price_idprice`,`images_idimages`,`user_iduser`)
+    INSERT INTO `property` (`property_id`,`title`,`date_created`,`address_id`,`price_id`,`images_id`,`user_id`)
     VALUES
       (1,"lorem. Donec","2021-12-13",11,15,1,8),
       (2,"quam. Pellentesque","2022-01-10",16,9,2,4),
@@ -366,7 +366,7 @@ VALUES
    
 ## wishlist_has_property
 
-    INSERT INTO `wishlist_has_property` (`wishlist_idwishlist`,`property_idproperty`)
+    INSERT INTO `wishlist_has_property` (`wishlist_id`,`property_id`)
     VALUES
       (15,4),
       (18,15),
@@ -391,7 +391,7 @@ VALUES
 
 ## images
 
-    INSERT INTO `images` (`idimages`,`image`,`description`,`property_id`)
+    INSERT INTO `images` (`images_id`,`image`,`description`,`property_id`)
     VALUES
       (1,"file.jpg","a, magna. Lorem",5),
       (2,"file.jpg","magna. Sed eu eros.",5),
@@ -446,7 +446,7 @@ VALUES
       
 ## payment_method
 
-    INSERT INTO `payment_method` (`fk_payment_method_user`,`payment_method`)
+    INSERT INTO `payment_method` (`payment_method_id`,`payment_method`)
     VALUES
       (1,"applepay"),
       (2,"applepay"),
@@ -473,7 +473,7 @@ VALUES
 
   
 
-    INSERT INTO `booking` (`idbooking`,`check_in`,`check_out`,`number_guests`,`property_idproperty`,`user_iduser`)
+    INSERT INTO `booking` (`booking_id`,`check_in`,`check_out`,`number_guests`,`property_id`,`user_id`)
     VALUES
       (1,"2021-05-04","2021-05-08",1,1,11),
       (2,"2021-05-03","2021-05-07",4,4,27),
