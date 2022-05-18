@@ -1,0 +1,159 @@
+schema_nm,table_nm,obj_typ,ord,is_key,column_nm,data_typ,nullable,column_descr
+Airbnb,address,TBL,1,PK,address_id,int(10),"NOT NULL",
+Airbnb,address,TBL,2,FK,country_code,varchar(3),"NOT NULL",
+Airbnb,address,TBL,3,FK,city_id,int(10),"NOT NULL",
+Airbnb,address,TBL,4,FK,neighborhood_id,int(10),"NOT NULL",
+Airbnb,address,TBL,5," ",street,varchar(90),"NOT NULL",
+Airbnb,address,TBL,6," ",housenumber,int(10),"NOT NULL",
+Airbnb,address,TBL,7," ",apartmentnumber,int(10),NULL,
+Airbnb,address,TBL,8,FK,coordintates_id,int(10),"NOT NULL",
+Airbnb,amenities,TBL,1,PK,amenities_id,int(10),"NOT NULL",
+Airbnb,amenities,TBL,2," ",wifi,tinyint(3),NULL,
+Airbnb,amenities,TBL,3," ",kitchen,tinyint(3),NULL,
+Airbnb,amenities,TBL,4," ",washer,tinyint(3),NULL,
+Airbnb,amenities,TBL,5," ",dryer,tinyint(3),NULL,
+Airbnb,amenities,TBL,6," ",ac,tinyint(3),NULL,
+Airbnb,amenities,TBL,7," ",heating,tinyint(3),NULL,
+Airbnb,amenities,TBL,8," ",workspace,tinyint(3),NULL,
+Airbnb,amenities,TBL,9," ",tv,tinyint(3),NULL,
+Airbnb,amenities,TBL,10," ",hairdryer,tinyint(3),NULL,
+Airbnb,amenities,TBL,11," ",iron,tinyint(3),NULL,
+Airbnb,amenities,TBL,12," ",pool,tinyint(3),NULL,
+Airbnb,amenities,TBL,13," ",hottub,tinyint(3),NULL,
+Airbnb,amenities,TBL,14," ",parking,tinyint(3),NULL,
+Airbnb,amenities,TBL,15," ",ev_charger,tinyint(3),NULL,
+Airbnb,amenities,TBL,16," ",gym,tinyint(3),NULL,
+Airbnb,amenities,TBL,17," ",breakfast,tinyint(3),NULL,
+Airbnb,amenities,TBL,18," ",indoor_fireplace,tinyint(3),NULL,
+Airbnb,amenities,TBL,19," ",smoking_allowed,tinyint(3),NULL,
+Airbnb,amenities,TBL,20," ",waterfront,tinyint(3),NULL,
+Airbnb,amenities,TBL,21," ",smoke_alarm,tinyint(3),NULL,
+Airbnb,amenities,TBL,22," ",carbonmonoxide_alarm,tinyint(3),NULL,
+Airbnb,booking,TBL,1,PK,booking_id,int(10),"NOT NULL",
+Airbnb,booking,TBL,2," ",check_in,date(3),"NOT NULL",
+Airbnb,booking,TBL,3," ",check_out,date(3),"NOT NULL",
+Airbnb,booking,TBL,4," ",number_guests,int(10),"NOT NULL",
+Airbnb,booking,TBL,5,FK,property_id,int(10),"NOT NULL",
+Airbnb,booking,TBL,6,FK,user_id,int(10),"NOT NULL",
+Airbnb,city,TBL,1,PK,city_id,int(10),"NOT NULL",
+Airbnb,city,TBL,2," ",name,varchar(45),"NOT NULL",
+Airbnb,city,TBL,3,FK,country_code,varchar(3),"NOT NULL",
+Airbnb,coordintates,TBL,1,PK,coordintates_id,int(10),"NOT NULL",
+Airbnb,coordintates,TBL,2," ",longitude,"decimal(9,6)","NOT NULL",
+Airbnb,coordintates,TBL,3," ",latitude,"decimal(8,6)","NOT NULL",
+Airbnb,country,TBL,1,PK,country_code,varchar(3),"NOT NULL",
+Airbnb,country,TBL,2," ",name,varchar(45),NULL,
+Airbnb,images,TBL,1,PK,images_id,int(10),"NOT NULL",
+Airbnb,images,TBL,2," ",image,varchar(10),NULL,
+Airbnb,images,TBL,3," ",description,varchar(100),NULL,
+Airbnb,images,TBL,4,FK,property_id,int(10),NULL,
+Airbnb,language,TBL,1,PK,language,varchar(45),"NOT NULL",
+Airbnb,messages,TBL,1,PK,messages_id,int(10),"NOT NULL",
+Airbnb,messages,TBL,2," ",content,varchar(500),NULL,
+Airbnb,messages,TBL,3,FK,sender,int(10),NULL,
+Airbnb,messages,TBL,4,FK,receiver,int(10),NULL,
+Airbnb,neighborhood,TBL,1,PK,neighborhood_id,int(10),"NOT NULL",
+Airbnb,neighborhood,TBL,2," ",name,varchar(45),"NOT NULL",
+Airbnb,neighborhood,TBL,3,FK,city_id,int(10),NULL,
+Airbnb,neighborhood,TBL,4,FK,country_code,varchar(3),NULL,
+Airbnb,number_guests,TBL,1,"FK,PK",number_guests_id,int(10),"NOT NULL",
+Airbnb,number_guests,TBL,2," ",adults,int(10),"NOT NULL",
+Airbnb,number_guests,TBL,3," ",children,int(10),NULL,
+Airbnb,number_guests,TBL,4," ",babies,int(10),NULL,
+Airbnb,number_guests,TBL,5," ",pets,int(10),NULL,
+Airbnb,payment_method,TBL,1,"FK,PK",payment_method_id,int(10),"NOT NULL",
+Airbnb,payment_method,TBL,2," ",payment_method,varchar(45),NULL,
+Airbnb,price,TBL,1,"FK,PK",price_id,int(10),"NOT NULL",
+Airbnb,price,TBL,2," ",base_price,int(10),NULL,
+Airbnb,price,TBL,3," ",discount_per_week,int(10),NULL,
+Airbnb,price,TBL,4," ",discount_per_month,int(10),NULL,
+Airbnb,price,TBL,5," ",service_fee,int(10),NULL,
+Airbnb,price,TBL,6," ",airbnb_fee,int(10),NULL,
+Airbnb,property,TBL,1,FK,property_id,int(10),"NOT NULL",
+Airbnb,property,TBL,2," ",title,varchar(45),"NOT NULL",
+Airbnb,property,TBL,3," ",date_created,datetime(8),NULL,
+Airbnb,property,TBL,4,FK,address_id,int(10),"NOT NULL",
+Airbnb,property,TBL,5,FK,user_id,int(10),"NOT NULL",
+Airbnb,property,TBL,6,FK,review_rating_id,int(10),NULL,
+Airbnb,review_rating,TBL,1,PK,review_rating_id,int(10),"NOT NULL",
+Airbnb,review_rating,TBL,2," ",review,varchar(500),NULL,
+Airbnb,review_rating,TBL,3," ",rating,int(10),NULL,
+Airbnb,review_rating,TBL,4," ",date_reviewed,datetime(8),NULL,
+Airbnb,review_rating,TBL,5,FK,user_id,int(10),"NOT NULL",
+Airbnb,review_rating,TBL,6,FK,property_id,int(10),"NOT NULL",
+Airbnb,rooms_beds,TBL,1,PK,rooms_beds_id,int(10),"NOT NULL",
+Airbnb,rooms_beds,TBL,2," ",bedrooms,int(10),NULL,
+Airbnb,rooms_beds,TBL,3," ",beds,int(10),"NOT NULL",
+Airbnb,rooms_beds,TBL,4," ",bathrooms,int(10),NULL,
+Airbnb,social_media,TBL,1,PK,social_media_id,int(10),"NOT NULL",
+Airbnb,social_media,TBL,2," ",facebook,varchar(100),NULL,
+Airbnb,social_media,TBL,3," ",instagram,varchar(100),NULL,
+Airbnb,social_media,TBL,4," ",twitter,varchar(100),NULL,
+Airbnb,type_of_place,TBL,1,PK,type_of_place_id,int(10),"NOT NULL",
+Airbnb,type_of_place,TBL,2," ",type_of_place,enum(9),NULL,
+Airbnb,user,TBL,1," ",Host,char(255),"NOT NULL",NULL
+Airbnb,user,TBL,1,PK,user_id,int(10),"NOT NULL",
+Airbnb,user,TBL,2," ",User,char(32),"NOT NULL",NULL
+Airbnb,user,TBL,2," ",first_name,varchar(45),"NOT NULL",
+Airbnb,user,TBL,3," ",Select_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,3," ",last_name,varchar(45),"NOT NULL",
+Airbnb,user,TBL,4," ",Insert_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,4," ",gender,varchar(45),"NOT NULL",
+Airbnb,user,TBL,5," ",Update_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,5," ",password,varchar(45),"NOT NULL",
+Airbnb,user,TBL,6," ",Delete_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,6," ",email,varchar(45),"NOT NULL",
+Airbnb,user,TBL,7," ",Create_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,7," ",phone,varchar(45),NULL,
+Airbnb,user,TBL,8," ",Drop_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,8," ",user_type,varchar(1),"NOT NULL",
+Airbnb,user,TBL,9," ",Reload_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,9,FK,language,varchar(45),NULL,
+Airbnb,user,TBL,10," ",Shutdown_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,10,FK,social_media_id,int(10),NULL,
+Airbnb,user,TBL,11," ",Process_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,12," ",File_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,13," ",Grant_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,14," ",References_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,15," ",Index_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,16," ",Alter_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,17," ",Show_db_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,18," ",Super_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,19," ",Create_tmp_table_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,20," ",Lock_tables_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,21," ",Execute_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,22," ",Repl_slave_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,23," ",Repl_client_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,24," ",Create_view_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,25," ",Show_view_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,26," ",Create_routine_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,27," ",Alter_routine_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,28," ",Create_user_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,29," ",Event_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,30," ",Trigger_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,31," ",Create_tablespace_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,32," ",ssl_type,enum(9),"NOT NULL",NULL
+Airbnb,user,TBL,33," ",ssl_cipher,blob(65535),"NOT NULL",NULL
+Airbnb,user,TBL,34," ",x509_issuer,blob(65535),"NOT NULL",NULL
+Airbnb,user,TBL,35," ",x509_subject,blob(65535),"NOT NULL",NULL
+Airbnb,user,TBL,36," ",max_questions,int(10),"NOT NULL",NULL
+Airbnb,user,TBL,37," ",max_updates,int(10),"NOT NULL",NULL
+Airbnb,user,TBL,38," ",max_connections,int(10),"NOT NULL",NULL
+Airbnb,user,TBL,39," ",max_user_connections,int(10),"NOT NULL",NULL
+Airbnb,user,TBL,40," ",plugin,char(64),"NOT NULL",NULL
+Airbnb,user,TBL,41," ",authentication_string,text(65535),NULL,NULL
+Airbnb,user,TBL,42," ",password_expired,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,43," ",password_last_changed,timestamp(4),NULL,NULL
+Airbnb,user,TBL,44," ",password_lifetime,smallint(5),NULL,NULL
+Airbnb,user,TBL,45," ",account_locked,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,46," ",Create_role_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,47," ",Drop_role_priv,enum(1),"NOT NULL",NULL
+Airbnb,user,TBL,48," ",Password_reuse_history,smallint(5),NULL,NULL
+Airbnb,user,TBL,49," ",Password_reuse_time,smallint(5),NULL,NULL
+Airbnb,user,TBL,50," ",Password_require_current,enum(1),NULL,NULL
+Airbnb,user,TBL,51," ",User_attributes,json,NULL,NULL
+Airbnb,wishlist,TBL,1,PK,wishlist_id,int(10),"NOT NULL",
+Airbnb,wishlist,TBL,2," ",name,varchar(45),"NOT NULL",
+Airbnb,wishlist,TBL,3,FK,user_id,int(10),"NOT NULL",
+Airbnb,wishlist_has_property,TBL,1,"FK,PK",wishlist_id,int(10),"NOT NULL",
+Airbnb,wishlist_has_property,TBL,2,"FK,PK",property_id,int(10),"NOT NULL",
