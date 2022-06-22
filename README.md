@@ -51,7 +51,7 @@ A possible issue could be observed in how hosts and guests are not separated eno
 
 ## ERD
 
-[![PNG of ERD](https://github.com/mr-emreerturk/airbnb_database/blob/main/Conception/Airbnb5_ERD.png)](https://github.com/mr-emreerturk/airbnb_database/blob/main/Conception/Airbnb5_ERD.png)
+![PNG of ERD](01_Conception_phase/Airbnb5_ERD.png)
 
 ## Summary
 
