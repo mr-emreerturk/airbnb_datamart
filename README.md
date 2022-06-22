@@ -2,6 +2,19 @@
 
 The overall goal of this project is to design an SQL database for the Airbnb task.
 
+## Requirements
+The database model meets all criteria for submission.
+ - Themodelshouldcontainatleast20entities. o Itcontains21entities
+ - Themodelshouldcontain2-3triplerelationships(Joinoverthreetables.). o See`address`tablerelationshipsforexample
+ - The model may also contain recursive relationships. Assign suitable attributes to the entities and mark the key attributes.
+ - The`messages`–`user`relationshipdisplaysarecursivewheretwoattributes use the same FK with different values.
+ - Specify all cardinality specifications in a notation of your choice (e. g. Chen notation)
+ - Referencesintheconceptionphaseas“Airbnb5_ERD.png”
+ - Short description of your current attributes in a data dictionary (short
+description of the data attributes and data types are appropriate).
+ - Data dictionary created with SQL statement, referenced in the document “data_dictionary_script.sql”
+
+
 ## General idea
 
 In this phase, the objective lies in creating an Entity-Relationship-Model (ERM), which will be the basis of the database structure. The database modeling process is crucial to guarantee a well-functioning database. A methodology and a deep dive into different entities, attributes, and relationships are necessary.
